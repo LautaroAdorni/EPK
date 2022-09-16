@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: racing hard;
+    src:url(../accest/font/RACING\ HARD.ttf)
+}
+
+
+.classh1 {
+    color: white;
+text-align: center;
+padding: 30px;
+font-size: xxx-large;
+font-family: racing hard;
+margin: auto;
+transform: translateX(100px);
+transition: transform 2s;
+
+
+}
+
+.classh2{
+    color:white;
+    padding: 10px;
+    font-size: xxx-large;
+    font-family: racing hard;
+    text-align: center;
+    margin: auto;
+
+ }
+
+
+
+
+
+.logo {
+    display: inline;
+    background-color: aquamarine;
+    margin: auto;
+
+
+}
+
+
+
+.claseparrafo {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+
+    
+
+}
+
+.claseparrafo2 {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+
+
+.classh3 {
+    text-align: center;
+    font-family: racing hard;
+    color: white;
+    font-size: xxx-large;
+    margin: auto;
+
+}
+
+.classDivsectionone{
+    width: 100px;
+
+}
+
+.classfooter {
+    text-size-adjust: buttom;
+}
+
+.ClaseFormulario {
+    color: white
+}
+
+.estilo-h1-servicios {
+
+    color: rgb(255, 255, 255) ;
+}
+
+#ID-divh1-servicios{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.class-div-nav {
+    text-align: right;
+}
+
+.class-div-nav2{
+
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+    background-color:rgb(255, 255, 255);;
+    margin-top: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    font-family: racing hard;
+}
+
+
+/* Page INDEX */
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas:
+    "titulo video"
+    "Parrafo video";
+    margin: auto;
+}
+
+.grid-conteiner h2 {
+    grid-area: titulo ;
+}
+
+
+.grid-conteiner p{
+    grid-area: parrafo;
+}
+
+/* Page NUESTRO EQUIPO */
+
+.grid-conteiner2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas: "imagen ..."
+    "... texto"
+}
+.grid-conteiner2 section img{
+    grid-area: imagen ...;
+
+
+}
+.grid-conteiner2 section p{
+    grid-area: ... texto;
+}
+
+.classvideo{
+    margin: 20px;
+
+}
+
+.div-header{
+    position:relative;
+    
+}
+
+
+
+
+
+/* .div-img{
+    width: 100%;
+    height: 100%;
+
+} */
+
+main section div img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+
+}
+
+
+footer span {
+    color: aliceblue;
+    justify-content: flex-start;
+    margin: auto;
+
+}
+
+div nav ul li{
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+    background-color:rgb(255, 255, 255);;
+    margin-top: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    font-family: racing hard;
+    margin: auto;
+
+
+
+}
+
+body {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url(https://img.redbull.com/images/w_3000/q_auto,f_auto/redbullcom/2020/7/16/scektzz4qkw9kkkiu4pi/neumatico-mojado);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom ;
+    justify-content: space-between;
+}
+
+.classvideo{
+    text-align: center;
+    margin: auto;
+
+}
+    /* Estilos Header */
+
+/* header {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(169, 169, 177;
+
+}
+nav ul li a {
+    text-decoration: none;
+} */
+
+    /* Estilos Main */
+/*
+main {     background-color: rgba(100, 120, 181, 0.399);;
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(100, 120, 181, 0.399);
+
+} */
+
+    /* Estilos footer */
+
+footer {
+
+   
+
+}
+
+RESPONSIVE
+
+
+/* @media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 468px) {
+
+} */
+
+/* Desktok first */
+
+@media only screen and (max-width: 1200px) {
+    .classvideo{
+     margin: 20px;
+    
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    main {
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width: 468px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
