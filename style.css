@@ -17,11 +17,10 @@
 }
 
 .classh1 {
-    color: white;
-text-align: center;
-padding: 30px;
+color: rgb(46, 60, 121);
+text-align: left;
 font-size: xxx-large;
-font-family: racing hard;
+font-family: racing hard; 
 margin: auto;
 transform: translateX(100px);
 transition: transform 2s;
@@ -30,9 +29,9 @@ transition: transform 2s;
 }
 
 .classh2{
-    color:white;
+    color: rgb(255, 255, 255);
     padding: 10px;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-family: racing hard;
     text-align: center;
     margin: auto;
@@ -41,16 +40,16 @@ transition: transform 2s;
  .classh3 {
     text-align: center;
     font-family: racing hard;
-    color: white;
+    color: rgb(46, 60, 121);
     font-size: xxx-large;
     margin: auto;
-    display: flexbox;
+
 
 }
 
 
 .claseparrafo {
-    color: white;
+    color: rgb(46, 60, 121);
     font-size: x-large;
     text-align: center;
     margin: auto;
@@ -58,7 +57,7 @@ transition: transform 2s;
 
 
 .claseparrafo2 {
-    color: white;
+    color: rgb(46, 60, 121);
     font-size: x-large;
     text-align: center;
     margin: auto;
@@ -68,15 +67,15 @@ transition: transform 2s;
 
 
 .ClaseFormulario {
-    color: white
+    color: rgb(46, 60, 121);
 }
 
 .estilo-h1-servicios {
-    color: rgb(255, 255, 255) ;
+    color: rgb(46, 60, 121) ;
 }
 
 #ID-divh1-servicios {
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(255, 255, 255, 0); */
 }
 
 .class-div-nav {
@@ -95,10 +94,19 @@ transition: transform 2s;
     font-family: racing hard;
 }
 
+.carousel-inner{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+
+
+
+}
 
 /* Page INDEX */
 
-.grid-conteiner {
+/* .grid-conteiner {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: min-content min-content min-content;
@@ -115,25 +123,25 @@ transition: transform 2s;
 
 .grid-conteiner p{
     grid-area: parrafo;
-}
+} */
 
 /* Page NUESTRO EQUIPO */
 
-.grid-conteiner2 {
+/* .grid-conteiner2 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: min-content min-content min-content;
     grid-template-areas: "imagen ..."
     "... texto"
-}
-.grid-conteiner2 section img{
+} */
+/* .grid-conteiner2 section img{
     grid-area: imagen ...;
 
 
 }
 .grid-conteiner2 section p{
     grid-area: ... texto;
-}
+} */
 
 .classvideo{
     margin: 20px;
@@ -152,7 +160,7 @@ transition: transform 2s;
 
 }
 
-#gridheader {
+/* #gridheader {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
@@ -165,13 +173,13 @@ transition: transform 2s;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .class-icono-ig{
     margin: 10px;
     width: 30px;
     height: 30px;
-    
+
 }
 .class-icono-wpp{
     margin: 10px;
@@ -184,8 +192,23 @@ transition: transform 2s;
     height: 30px;
 }
 
+#id-body{
+    background-color: gray;
+}
+
+#id-nav{
+    background-color: gray !important;
+    color: white !important;
+    text-decoration: white !important;
 
 
+}
+
+
+.class-video-eventos{
+    display: grid;
+    grid-template: auto;
+}
 
 main section div img{
     /* width: 100vw;
@@ -202,34 +225,11 @@ header nav ul li{
     text-align: right;
     display: inline-block;
     padding: 5px;
-    background-color:rgb(255, 255, 255);;
+    background-color:rgb(255, 255, 255);
     margin-top: 10px;
     border: 3px solid;
     border-radius: 5px;
     font-family: racing hard;
-}
-
-
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: auto;
-    background-image: url(https://img.redbull.com/images/w_3000/q_auto,f_auto/redbullcom/2020/7/16/scektzz4qkw9kkkiu4pi/neumatico-mojado);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: bottom ;
-    justify-content: space-between;
-}
-  
-
-
-header{
-    grid-area: header;
-}
-
-main{
-    grid-area: main;
 }
 
 
@@ -238,79 +238,19 @@ footer {
     width: 100vw;
     height: 10vh;
     padding-top: 90px;
-    margin: 0px;
-    color: aliceblue;
-
-}
-
-/* footer span {
-
-} */
-
-
-/* RESPONSIVE */
-
-
-/* @media only screen and (min-width: 1200px) {
-
-}
-
-@media only screen and (min-width: 768px){
-
-}
-
-@media only screen and (min-width: 468px) {
-
-} */
-
-/* Desktok first */
-
-@media only screen and (max-width: 1400px) {
-
-
-}
-
-@media only screen and (max-width: 1200px) {
-
-
-}
-
-@media only screen and (max-width: 768px){
-
-
-
-@media only screen and (max-width: 480px) {
-
-}
-
-@media only screen and (max-width: 320px) {
-
-    .classvideo{
-        display: none;
-       }
-}
-
-}
-
-@media only screen and (min-width: 320px) {
-
-
-
-}
-
-@media only screen and (min-width: 480px) {
-
-}
-
-@media only screen and (min-width: 780px) {
-
-}
-@media only screen and (min-width: 1200px) {
-
-}
-@media only screen and (min-width: 1400px) {
+    color: rgb(46, 60, 121);
 
 }
 
 
 
+
+@media (max-width: 768px){
+    #intro{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    #introh1{
+        width: 90% !important;  
+}
+}
