@@ -1,256 +1,352 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ margin: 0; padding: 0;
+ box-sizing: border-box;
 
+}
 @font-face {
     font-family: racing hard;
     src:url(../accest/font/RACING\ HARD.ttf)
 }
 
-.logo {
-    display: inline-block;
-    background-color: aquamarine;
-    margin: auto;
-    position: relative;
+html{
+    scroll-behavior: smooth;
 }
 
-.classh1 {
-color: rgb(46, 60, 121);
-text-align: left;
-font-size: xxx-large;
-font-family: racing hard; 
-margin: auto;
-transform: translateX(100px);
-transition: transform 2s;
-
-
+body{
+    background-color: rgb(193, 193, 193);
 }
 
-.classh2{
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    font-size: xx-large;
+h1{ font-size: 3.5em;
     font-family: racing hard;
-    text-align: center;
-    margin: auto;
+    color: white;
 
- }
- .classh3 {
-    text-align: center;
+}
+h2{font-size: 2.7em;
     font-family: racing hard;
-    color: rgb(46, 60, 121);
-    font-size: xxx-large;
-    margin: auto;
-
 
 }
 
-
-.claseparrafo {
-    color: rgb(46, 60, 121);
-    font-size: x-large;
-    text-align: center;
-    margin: auto;
-}
-
-
-.claseparrafo2 {
-    color: rgb(46, 60, 121);
-    font-size: x-large;
-    text-align: center;
-    margin: auto;
-
-}
-
-
-
-.ClaseFormulario {
-    color: rgb(46, 60, 121);
-}
-
-.estilo-h1-servicios {
-    color: rgb(46, 60, 121) ;
-}
-
-#ID-divh1-servicios {
-    /* background-color: rgba(255, 255, 255, 0); */
-}
-
-.class-div-nav {
-    text-align: right;
-}
-
-.class-div-nav2{
-
-     text-align: right;
-    display: inline-block;
-    padding: 5px;
-    background-color:rgb(255, 255, 255);;
-    margin-top: 10px;
-    border: 3px solid;
-    border-radius: 5px;
+h3{font-size: 2em;
     font-family: racing hard;
+
+}
+p{font-size: 1.25em;
+    
+
+}
+ul{ text-decoration: none;
+    
+}
+li{
+    font-size: 1.25em;
+    font-family: racing hard;
+    text-decoration: none;
 }
 
-.carousel-inner{
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: rgb(46, 27, 192);
+
+}
+
+button:hover{
+    background-color:rgb(29, 20, 95) ;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+header{
+    background-color:rgb(223, 223, 223)
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-family: racing hard;
+    font-size: 2.9em;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a {
+    color: rgb(56, 33, 228);
+    font-family: racing hard;
+    font-size: 2.2em;
+    padding: 40px;
+    text-decoration: none;
+    
+}
+header a:hover{
+    color: rgb(31, 22, 103);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    
+    ,url(https://img.redbull.com/images/w_3000/q_auto,f_auto/redbullcom/2020/7/16/scektzz4qkw9kkkiu4pi/neumatico-mojado);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#sobre-nosotros {
+
+}
+
+
+#servicios-ventas{
+    background-color: rgb(25, 18, 79);
+    color:white;
+    
+}
+
+#servicios-ventas .container{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#servicios-ventas h2{
+    margin-top: 0%;
+}
+
+
+#servicios-ventas p {
+    display: none;
+
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 100px 12px;
+
+
+}
+
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+#veni-a-aprender{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: max-content;
-
-
-
-}
-
-/* Page INDEX */
-
-/* .grid-conteiner {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: min-content min-content min-content;
-    grid-template-areas:
-    "titulo video"
-    "Parrafo video";
-    margin: auto;
-}
-
-.grid-conteiner h2 {
-    grid-area: titulo ;
-}
-
-
-.grid-conteiner p{
-    grid-area: parrafo;
-} */
-
-/* Page NUESTRO EQUIPO */
-
-/* .grid-conteiner2 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: min-content min-content min-content;
-    grid-template-areas: "imagen ..."
-    "... texto"
-} */
-/* .grid-conteiner2 section img{
-    grid-area: imagen ...;
-
-
-}
-.grid-conteiner2 section p{
-    grid-area: ... texto;
-} */
-
-.classvideo{
-    margin: 20px;
-
-}
-
-.div-header{
-    justify-content: bottom;
-
-}
-
-.classvideo{
     text-align: center;
-    margin: auto;
-
-
-}
-
-/* #gridheader {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-#section-video{
-    display: flexbox;
-    position: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
-
-.class-icono-ig{
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-
-}
-.class-icono-wpp{
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-}
-.class-icono-fc{
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-}
-
-#id-body{
-    background-color: gray;
-}
-
-#id-nav{
-    background-color: gray !important;
-    color: white !important;
-    text-decoration: white !important;
-
-
+    height: 80vh;
+    background-color: rgb(168, 168, 168);
 }
 
 
-.class-video-eventos{
-    display: grid;
-    grid-template: auto;
-}
+@media (min-width 720px) {
 
-main section div img{
-    /* width: 100vw;
-    height: 100vh; */
-
-
-}
-
-
-
-header nav ul li{
-
-    display: grid;
-    text-align: right;
-    display: inline-block;
-    padding: 5px;
-    background-color:rgb(255, 255, 255);
-    margin-top: 10px;
-    border: 3px solid;
-    border-radius: 5px;
-    font-family: racing hard;
-}
-
-
-footer {
-    grid-area: footer;
-    width: 100vw;
-    height: 10vh;
-    padding-top: 90px;
-    color: rgb(46, 60, 121);
-
-}
-
-
-
-
-@media (max-width: 768px){
-    #intro{
-        width: 90% !important;
-        text-align: center !important;
+    header{
+        position: fixed;
+        width: 100%;
     }
-    #introh1{
-        width: 90% !important;  
+    header .container{
+            flex-direction: row;
+            justify-content: space-between;
+    }
+
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+
+    }
+
+    #sobre-nosotros .container{
+
+    }
+
+
+    #sobre-nosotros .img-container{
+        
+
+
+    }
 }
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+/* 
+header { height: 100px;
+         background-color: rgb(216, 222, 227);
+         padding: 0 50px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
 }
+
+
+.logo{
+    text-transform: uppercase;
+    color:rgb(27, 141, 235);
+    font-weight: 200;
+}
+
+.menu a{
+    color:rgb(27, 141, 235);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+
+}
+
+.mostrar-menu{
+    
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+
+#check{
+    display: none;
+}
+
+
+ @media (max-width: 768px) {
+
+    .mostrar-menu,
+    .esconder-menu {
+     display: block}   
+}
+
+    .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    left: 0;
+    right: -100%;
+    top:0;
+    text-align: center;
+    padding: 100px;
+    z-index: 100;
+    transition: 0.8s;
+}
+    .menu a{
+        display: block;
+        padding: 20px;
+
+    }
+
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    
+    .check:checked ~ .menu{
+        right: 0;
+    } 
+
+
+    
